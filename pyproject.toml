@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "customer-service-agent"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.42.2"
+streamlit-webrtc = "^0.47.9"
+whisper = "^1.1.10"
+langchain = "^0.3.19"
+faiss-cpu = "^1.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+ruff = "^0.9.7"
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

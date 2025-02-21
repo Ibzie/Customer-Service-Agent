@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local development
+.env
+.env.local
+
+# Logs
+*.log
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/
+
+
+Project_Docs/
